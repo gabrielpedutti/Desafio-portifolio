@@ -26,7 +26,7 @@ Criar um exemplo de site portifólio utilizando diversas técnicas aprendidas na
 ### Links
 
 - Solution URL: [GitHub](https://github.com/gabrielpedutti/Desafio-portifolio)
-- Live Site URL: [Live Site](https://gabrielpedutti.github.io/Desafio-sidebar)
+- Live Site URL: [Live Site](https://gabrielpedutti.github.io/Desafio-portifolio)
 
 ## Meu Processo
 
