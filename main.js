@@ -57,11 +57,13 @@ async function atualizarProjetos(){
     let descriptionProject2 = repos[1].description
     let techProject1 = repos[0].language
     let techProject2 = repos[1].language
-    titleProject1.textContent = project1
+    let linkProject1 = repos[0].html_url
+    let linkProject2 = repos[1].html_url
+    titleProject1.innerHTML = `<a href="${linkProject1}">${project1}</a>`
     descricaoProjeto1.textContent = descriptionProject1
-    titleProject2.textContent = project2
+    titleProject2.innerHTML = `<a href="${linkProject2}">${project2}</a>`
     descricaoProjeto2.textContent = descriptionProject2
-
+    console.log(repos)
     atualizarLinguagem(techProject1, techProject2)
 }
 
