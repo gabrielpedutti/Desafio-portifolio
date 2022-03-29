@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio - Portifolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,24 +86,24 @@
             <div class="containerProjects">
                 <div class="card project1">
                     <div class="boxProject">
-                        <h3> <img src="assets/folder.svg" alt="Icone de Pasta"> Desafio-social-links</h3>
-                        <p class="descricao">Desafio Rocketseat, criar um layout de divulgação de redes sociais.</p>
+                        <h3> <img src="assets/folder.svg" alt="Icone de Pasta"> <span id="titleProject1"></span></h3>
+                        <p id="descricaoProjeto1" class="descricao"></p>
                     </div>
                     <div class="projectFooter">
                         <p> <span class="projectStar"><img src="assets/star.svg" alt="Icone de Estrela"> 100</span> 
                             <img src="assets/git-branch.svg" alt="Icone de Branch"> 100 </p> 
-                            <p> <span class="projectLanguage"><span class="circulo"></span> CSS</span></p>
+                            <p> <span class="projectLanguage"><span class="circulo"></span> <span class="language1"></span></span></p>
                     </div>
                 </div>
                 <div class="card project2">
                     <div class="boxProject">
-                        <h3> <img src="assets/folder.svg" alt="Icone de Pasta"> Desafio-countdown</h3>
-                        <p class="descricao">Desafio Rocketseat, criar uma página com contagem regressiva.</p>
+                        <h3> <img src="assets/folder.svg" alt="Icone de Pasta"> <span id="titleProject2"></span></h3>
+                        <p id="descricaoProjeto2" class="descricao"></p>
                     </div>
                     <div class="projectFooter">
                         <p> <span class="projectStar"><img src="assets/star.svg" alt="Icone de Estrela"> 100</span> 
                             <img src="assets/git-branch.svg" alt="Icone de Branch"> 100 </p> 
-                            <p> <span class="projectLanguage"><span class="circulo"></span> JavaScript</span></p>
+                            <p> <span class="projectLanguage"><span class="circulo"></span> <span class="language2"></span></span></p>
                     </div>
                 </div>
             </div>
@@ -123,6 +124,7 @@
             </div>
         </main>
     </div>
+    <script src="main.js"></script>
     <footer>
         Feito por Gabriel Pedutti
     </footer>

@@ -227,9 +227,7 @@ a:hover {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: rgb(31, 4, 184);
     border-radius: 50px;
-    border: solid rgba(55, 40, 143, 0.212) ;
     box-shadow: 0px 0px 5px 1px rgb(152, 143, 187);
     margin-right: 5px;
 }
@@ -248,9 +246,7 @@ a:hover {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: rgb(177, 180, 11);
     border-radius: 50px;
-    border: solid rgba(238, 235, 37, 0.212) ;
     box-shadow: 0px 0px 5px 1px rgb(152, 143, 187);
     margin-right: 5px;
 }
